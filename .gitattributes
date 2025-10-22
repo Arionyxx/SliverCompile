@@ -1,0 +1,4 @@
+# Track large Sliver binaries with Git LFS
+# Note: LFS disabled for split compressed files due to fork restrictions
+# sliver-server* filter=lfs diff=lfs merge=lfs -text
+# *.exe filter=lfs diff=lfs merge=lfs -text
