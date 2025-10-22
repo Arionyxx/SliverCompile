@@ -10,7 +10,7 @@
 # Diffs
 *.orig
 
-# Binaries
+# Binaries (but allow releases directory)
 /sliver-server
 /sliver-server_arm64
 /sliver.exe
@@ -20,6 +20,10 @@
 /sliver-client_arm64
 /sliver-client.exe
 /sliver-client_*
+
+# Allow releases directory
+!releases/
+!releases/**
 
 sliver-server-linux.zip
 sliver-server-macos.zip
